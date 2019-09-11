@@ -48,8 +48,8 @@ self.__precacheManifest = [
     "url": "/dumrongtum/static/media/drawer pic.0fd66a4d.png"
   },
   {
-    "revision": "af2a01fcd6cb3376f76b",
-    "url": "/dumrongtum/static/js/main.af2a01fc.chunk.js"
+    "revision": "c02574937f3a0a9d5ae5",
+    "url": "/dumrongtum/static/js/main.c0257493.chunk.js"
   },
   {
     "revision": "97ec04e3e8b602e8fba2",
@@ -300,7 +300,7 @@ self.__precacheManifest = [
     "url": "/dumrongtum/static/css/9.e06fe27e.chunk.css"
   },
   {
-    "revision": "af2a01fcd6cb3376f76b",
+    "revision": "c02574937f3a0a9d5ae5",
     "url": "/dumrongtum/static/css/main.109abd14.chunk.css"
   },
   {
@@ -336,7 +336,7 @@ self.__precacheManifest = [
     "url": "/dumrongtum/static/css/24.780c1ddd.chunk.css"
   },
   {
-    "revision": "66ce7155f30cbd95ae1ca74c0ce3f874",
+    "revision": "3b1ee2c33b5a4a25fe8833b14595619c",
     "url": "/dumrongtum/index.html"
   }
 ];
