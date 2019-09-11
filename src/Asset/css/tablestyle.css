@@ -1,0 +1,148 @@
+.my-container-class {
+    /* change from margin-top: 30px; */
+    margin-top: 0px;
+}
+
+.my-tableContainer-class {
+    border-right: 0;
+    border-left: 0;
+}
+
+.my-tableHeader-class>thead {
+    border: 2px solid #ccc;
+    border-left: 0;
+    border-right: 0;
+}
+.my-tableHeader-class>thead>tr>th:nth-child(2) {
+    text-align: center !important; /* custom from default */
+}
+
+.my-tableHeader-class.colorBlue>thead>tr {
+    background: #29a4db;
+    color: #fff;
+}
+
+.my-tableHeader-class>thead>tr>th {
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.react-bs-table .table-bordered>tbody>tr:nth-child(2n) {
+    background-color: #eee;
+}
+.react-bs-table .table-bordered>thead>tr:first-child>th {
+    border: none;
+    font-weight: 400;
+}
+
+.react-bs-table .table-bordered>thead>tr:first-child>td {
+    border: none;
+    font-weight: 300;
+}
+
+.react-bs-table .table-bordered>tbody>tr>td {
+    border: 0;
+    font-weight: 300;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.my-tableBody-pointer-class {
+    cursor: pointer;
+}
+
+/* =============================== */
+
+.tb-report-icon {
+    display: inline;
+    cursor: pointer;
+}
+
+.tb-report-icon:hover {
+    color: #299fd6;
+}
+
+.tb-report-icon label {
+    margin-left: 5px;
+    font-weight: 300;
+}
+
+.td-style {
+    font-size: 12px;
+}
+
+.tb-setMinH {
+    min-height: 50vh;
+}
+
+.tb-setSearch .react-bs-table-tool-bar .row {
+    flex-direction: row-reverse;
+}
+
+/* =========================================================================== */
+
+.react-bs-table-pagination .row>div .dropdown.react-bs-table-sizePerPage-dropdown #pageDropDown {
+    align-items: flex-start;
+    display: flex;
+}
+
+.page-item:first-child .page-link, .page-item:last-child .page-link {
+    border-radius: 100%;
+}
+
+.pagination>li>a, .pagination>li>span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    border-radius: 100%;
+    margin: 0 5px;
+    width: 35px;
+    height: 35px;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd):hover {
+    background-color: #00000013;
+}
+
+/* ============================================================================================ */
+
+.setSelect {
+    text-align: left;
+    float: right;
+    margin-top: 9px;
+}
+
+.setSelect p {
+    margin: 0;
+}
+
+.setSelect select {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    box-shadow: none;
+    font-weight: 200;
+    color: #495057;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+/* ============================================================================================ */
+/*                                          override
+/* ============================================================================================ */
+.react-bs-table-bordered{
+    border: unset !important;
+}

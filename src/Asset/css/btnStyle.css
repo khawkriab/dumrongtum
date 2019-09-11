@@ -1,0 +1,76 @@
+.jus-s-center {
+    justify-self: center;
+}
+
+.btn-send-blue {
+    margin: 40px 0;
+    border: none;
+    border-radius: 20em;
+    padding: 15px;
+    width: 160px;
+    background: #299fd6;
+    color: white;
+}
+
+.btn-send-blue:hover {
+    background: #2b7ea5;
+    box-shadow: 3px 3px 3px #3333;
+}
+
+.btn-send-blue:focus, .btn-readmore:focus {
+    outline: none;
+}
+
+/* ----------------------------------- */
+
+.btn-news-read {
+    background: transparent;
+    border-radius: 18px;
+    padding: 5px 10px;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #fff;
+    width: 85px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.btn-news-read:hover {
+    background: #ffffff57;
+    border-color: #ffffff57;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-readmore {
+    font-size: 14px;
+    border: none;
+    color: #299fd6;
+    background: none;
+    text-align: right;
+}
+
+.btn-readmore:hover, a.btn-readmore:hover {
+    color: #1c7fad;
+}
+
+.btn-login-track {
+    background: transparent;
+    box-shadow: none;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    font-weight: 300;
+    transition: all .6s;
+}
+
+.btn-login-track:hover {
+    background: #299fd6;
+    border: 1px solid #299fd6;
+    transition: all .6s;
+    color: white;
+}

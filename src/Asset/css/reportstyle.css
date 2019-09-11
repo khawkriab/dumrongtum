@@ -1,0 +1,33 @@
+.LabelInput-panel {
+    text-align: left;
+}
+
+.LabelInput-panel label {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.LabelInput-panel input {
+    color: #000;
+}
+
+.LabelInput-panel select {
+    font-size: 14px;
+    font-weight: 200;
+    height: 32px;
+    display: block;
+    width: 100%;
+    padding: 5px 3px;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+input[type=radio] {
+    margin-left: 10px;
+    margin-right: 10px;
+}
