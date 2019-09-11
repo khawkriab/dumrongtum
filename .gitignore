@@ -1,1 +1,11 @@
 /build
+
+/node_modules
+
+/coverage
+
+.DS_Store
+
+package-look.json
+
+yarn.lock
