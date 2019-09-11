@@ -83,7 +83,7 @@
     "workbox-webpack-plugin": "3.6.3",
     "gh-pages": "^2.0.1"
   },
-  "homepage": "https://github.com/khawkriab/dumrongtum.git",
+  "homepage": "https://khawkriab.github.io/dumrongtum/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "master -d build",
